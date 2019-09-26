@@ -1,0 +1,58 @@
+{
+  "name": "react_webpack",
+  "version": "1.0.0",
+  "description": "react typescript with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server --mode development --open --hot --colors",
+    "build": "webpack -mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlprajapati/react-typescript-webpack.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Madan Lal Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlprajapati/react-typescript-webpack/issues"
+  },
+  "homepage": "https://github.com/mlprajapati/react-typescript-webpack#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.18",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "source-map-loader": "^0.2.4",
+    "ts-jest": "^24.1.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
