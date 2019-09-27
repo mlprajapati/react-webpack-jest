@@ -21,9 +21,8 @@ it('renders app having <p> correctly', () => {
     const mainDom = wrapper.find('p').first().text();
     expect(mainDom).toMatch('The color of this page is: blue');
 })
-// it('renders app having <Game> correctly', () => {
-//     const wrapper = mount(<App color='blue'/>)
-//     const mainDom = wrapper.find('Game');
-//     expect(mainDom).toBe(true);
-// })
+it('renders app having <Game> correctly', () => {
+    const wrapper = shallow(<App color='blue'/>)
+    expect(wrapper.find('Game')).toBeDefined();
+})
 })
